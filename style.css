@@ -1,9 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 .botones{
     padding: 16px 0 16px 0;
+}
+
+header .navbar-custom{
+    color: white;
+    background-color: #297ae4;
+}
+
+header h1{
+    display: inline;
+    color: #fefefe;
+    font-size: 1.8rem;
+    padding-left: 6px;
+}
+
+.principal, .areaDeTexto{
+    margin-top: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.container{
+    padding: 5px;
 }
