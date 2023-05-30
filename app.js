@@ -30,3 +30,10 @@ function desencriptar() {
     document.getElementById("texto-final").value = textoEncriptado;
 }
 
+function copiarTexto(){
+    let texto = document.getElementById("texto-final");
+    texto.select();
+    texto.selectionRange(0,99999);
+    document.execCommand("copy");
+}
+

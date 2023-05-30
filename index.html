@@ -35,7 +35,7 @@
                 <label for="inputPassword5" class="form-label">
                     <h2>Ingresa el texto que quieres encriptar/desencriptar</h2>
                 </label>
-                <input type="text" id="texto-principal" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" id="texto-principal" class="form-control" aria-describedby="passwordHelpBlock" pattern="[a-z]">
                 <div id="passwordHelpBlock" class="form-text">
                     <strong>Solo letras minúsculas, evita usar acentos y caracteres especiales</strong>
                 </div>
@@ -53,10 +53,11 @@
                 </div>
             </div>
             <div class="copiar text-center">
-                <button type="submit" class="btn btn-secondary btn-lg">Copiar</button>
+                <button type="submit" class="btn btn-secondary btn-lg" onclick="copiarTexto()">Copiar</button>
             </div>
             <hr>
         </div>
+        <img src="./Images/Alura.png" class="img-fluid rounded mx-auto d-block" alt="Alura">
     </main>
     <script src="./app.js"></script>
 </body>
